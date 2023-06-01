@@ -4,12 +4,18 @@ import NftPreviewCard from './NftPreviewCard.vue'
 </script>
 
 <template>
-	<div class="relative flex h-full items-center justify-center">
-		<NftPreviewCard></NftPreviewCard>
-		<AttributionComp
-			attributorName="8teve"
-			attributorLink="https://www.frontendmentor.io/profile/S7eve8"
-			class="absolute bottom-0 p-4 text-white"
-		></AttributionComp>
+	<div
+		class="flex h-full flex-col items-center justify-center overflow-y-scroll bg-dark-blue-main"
+	>
+		<main>
+			<NftPreviewCard></NftPreviewCard>
+		</main>
+		<footer>
+			<AttributionComp
+				attributorName="8teve"
+				attributorLink="https://www.frontendmentor.io/profile/S7eve8"
+				class="p-4 text-white"
+			></AttributionComp>
+		</footer>
 	</div>
 </template>

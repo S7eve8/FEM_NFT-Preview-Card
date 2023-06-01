@@ -12,8 +12,4 @@ body,
 #app {
 	height: 100%;
 }
-
-#app {
-	background-color: var(--dark-blue-main);
-}
 </style>

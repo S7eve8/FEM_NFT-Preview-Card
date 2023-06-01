@@ -8,6 +8,7 @@ export default {
     extend: {
       colors: {
         'dark-blue-line': 'hsl(215, 32%, 27%)',
+        'dark-blue-main': 'hsl(217, 54%, 11%)',
         'soft-blue': 'hsl(215, 51%, 70%)',
         'cyan': 'hsl(178, 100%, 50%)',
       },

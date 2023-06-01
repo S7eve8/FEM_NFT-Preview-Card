@@ -22,14 +22,24 @@
 		<p class="mt-[-8px] text-[18px] font-light text-soft-blue">
 			Our Equilibrium collection promotes balance and calm.
 		</p>
-		<div class="flex justify-between">
-			<div class="mr-auto flex gap-[6.5px]">
+		<div class="flex justify-between gap-3">
+			<div class="mr-auto flex basis-1/2 gap-[6.5px] overflow-hidden">
 				<img src="@/assets/images/icon-ethereum.svg" alt="ethereum-image" />
-				<p class="text-base font-semibold text-cyan">0.041 ETH</p>
+				<p
+					class="overflow-hidden text-ellipsis whitespace-nowrap text-base font-semibold text-cyan"
+				>
+					0.041 ETH
+				</p>
 			</div>
-			<div class="ml-auto flex items-center gap-[7.5px]">
+			<div
+				class="ml-auto flex basis-1/2 items-center justify-end gap-[7.5px] overflow-hidden"
+			>
 				<img class="h-4 w-4" src="@/assets/images/icon-clock.svg" alt="clock-image" />
-				<p class="text-base font-normal text-soft-blue">3 days left</p>
+				<p
+					class="overflow-hidden text-ellipsis whitespace-nowrap text-base font-normal text-soft-blue"
+				>
+					3 days left
+				</p>
 			</div>
 		</div>
 		<hr class="border-t-dark-blue-line" />
@@ -39,11 +49,9 @@
 				src="@/assets/images/image-avatar.png"
 				alt="avatar-image"
 			/>
-			<p class="font-normal text-soft-blue">
+			<p class="text-base font-normal text-soft-blue">
 				Creation of <span class="text-white">Jules Wyvern</span>
 			</p>
 		</div>
 	</div>
 </template>
-
-<style scoped></style>
