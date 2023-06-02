@@ -11,7 +11,7 @@
 			<figure
 				class="absolute left-0 top-0 flex h-full w-full items-center justify-center rounded-lg bg-cyan/50 opacity-0 transition ease-in-out group-hover:opacity-100"
 			>
-				<img src="@/assets/images/icon-view.svg" />
+				<img src="@/assets/images/icon-view.svg" alt="view-icon-image" />
 			</figure>
 		</div>
 		<p
