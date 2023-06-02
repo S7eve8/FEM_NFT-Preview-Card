@@ -1,12 +1,27 @@
 <script setup>
 import AttributionComp from './AttributionComp.vue'
 import NftPreviewCard from './NftPreviewCard.vue'
+import nftImagePath from '@/assets/images/image-equilibrium.jpg'
+import nftCurrencyImagePath from '@/assets/images/icon-ethereum.svg'
+import nftCreatorImagePath from '@/assets/images/image-avatar.png'
+
+const nftCardData = {
+	nftImagePath,
+	nftTitle: 'Equilibrium #3429',
+	nftDescription: 'Our Equilibrium collection promotes balance and calm.',
+	nftCurrencyImagePath,
+	nftCurrencyAmount: '0.041',
+	nftCurrency: 'ETH',
+	timeLeft: '3 days left',
+	nftCreatorImagePath,
+	nftCreator: 'Jules Wyvern'
+}
 </script>
 
 <template>
 	<div class="flex h-full flex-col">
 		<main class="m-auto">
-			<NftPreviewCard></NftPreviewCard>
+			<NftPreviewCard :nftCardData="nftCardData"></NftPreviewCard>
 		</main>
 		<footer>
 			<AttributionComp
