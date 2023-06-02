@@ -4,10 +4,8 @@ import NftPreviewCard from './NftPreviewCard.vue'
 </script>
 
 <template>
-	<div
-		class="flex h-full flex-col items-center justify-center overflow-y-scroll bg-dark-blue-main"
-	>
-		<main>
+	<div class="flex h-full flex-col">
+		<main class="m-auto">
 			<NftPreviewCard></NftPreviewCard>
 		</main>
 		<footer>
