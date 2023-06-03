@@ -682,6 +682,11 @@ video {
   background-color: hsl(178 100% 50% / 0.5);
 }
 
+.bg-dark-blue-card{
+  --tw-bg-opacity: 1;
+  background-color: hsl(216 50% 16% / var(--tw-bg-opacity));
+}
+
 .p-4{
   padding: 1rem;
 }
@@ -862,30 +867,6 @@ select {
 body {
   font-size: 1.125rem;
   font-family: 'Outfit', sans-serif;
-}
-
-.dark-blue-line {
-  background-color: var(--dark-blue-line);
-}
-
-.dark-blue-card {
-  background-color: var(--dark-blue-card);
-}
-
-.dark-blue-main {
-  background-color: var(--dark-blue-main);
-}
-
-.soft-blue {
-  background-color: var(--soft-blue);
-}
-
-.text-soft-blue {
-  color: var(--soft-blue);
-}
-
-.text-cyan {
-  color: var(--cyan);
 }
 
 .hover\:text-cyan:hover{

@@ -102,27 +102,3 @@ body {
 	font-size: 1.125rem;
 	font-family: 'Outfit', sans-serif;
 }
-
-.dark-blue-line {
-	background-color: var(--dark-blue-line);
-}
-
-.dark-blue-card {
-	background-color: var(--dark-blue-card);
-}
-
-.dark-blue-main {
-	background-color: var(--dark-blue-main);
-}
-
-.soft-blue {
-	background-color: var(--soft-blue);
-}
-
-.text-soft-blue {
-	color: var(--soft-blue);
-}
-
-.text-cyan {
-	color: var(--cyan);
-}

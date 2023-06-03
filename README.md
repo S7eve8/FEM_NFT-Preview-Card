@@ -7,6 +7,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 - Vite
 - Vue 3
 - Tailwind CSS
+- Storybook (Component Documentation)
 
 ## Recommended IDE Setup
 
@@ -34,8 +35,32 @@ npm run dev
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Format with Prettier
 
 ```sh
-npm run lint
+npm run format
+```
+
+### Format Storybook Stories with Prettier
+
+```sh
+npm run format-stories
+```
+
+### Pre-init Storybook
+
+```sh
+npm run pre-storybook
+```
+
+### Compile and Hot-Reload Storybook for Development
+
+```sh
+npm run storybook
+```
+
+### Build Storybook for Production
+
+```sh
+npm run build-storybook
 ```

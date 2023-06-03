@@ -8,7 +8,7 @@ defineProps({
 </script>
 
 <template>
-	<div class="dark-blue-card flex max-w-[350px] flex-col gap-6 rounded-[15px] p-6">
+	<div class="flex max-w-[350px] flex-col gap-6 rounded-[15px] bg-dark-blue-card p-6">
 		<div class="group relative cursor-pointer">
 			<figure>
 				<img
