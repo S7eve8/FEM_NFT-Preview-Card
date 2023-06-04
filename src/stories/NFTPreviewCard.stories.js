@@ -41,3 +41,20 @@ export const NftPreviewCardSample = {
 		}
 	}
 }
+
+export const NftPreviewCardLongTextSample = {
+	args: {
+		nftCardData: {
+			nftImagePath,
+			nftTitle: 'Equilibrium Wingardium Leviosa #3429',
+			nftDescription: 'Our Equilibrium collection promotes balance and calm. The Levitation Charm was invented in 1544 by warlock Jarleth Hobart who mistakenly believed that he had at last succeeded in doing what wizardkind had so far failed to do, and learnt to fly.',
+			nftCurrencyImagePath,
+			nftCurrencyAmount: '0.00000041',
+			nftCurrency: 'ETHxxx',
+			timeLeft: '3 days left',
+			nftCreatorImagePath,
+			nftCreator: 'Jules Wyvern Harry Potter JK Rowling'
+		}
+	}
+}
+
