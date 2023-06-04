@@ -19,15 +19,15 @@ const nftCardData = {
 </script>
 
 <template>
-	<div class="flex h-full flex-col">
-		<main class="m-auto">
+	<div class="relative flex h-full items-center justify-center">
+		<main>
 			<NftPreviewCard :nftCardData="nftCardData"></NftPreviewCard>
 		</main>
 		<footer>
 			<AttributionComp
 				attributorName="8teve"
 				attributorLink="https://www.frontendmentor.io/profile/S7eve8"
-				class="p-4 text-white"
+				class="absolute bottom-0 left-1/2 -translate-x-1/2 p-4 text-white"
 			></AttributionComp>
 		</footer>
 	</div>
