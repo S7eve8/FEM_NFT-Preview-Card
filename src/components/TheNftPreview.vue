@@ -23,7 +23,7 @@ const nftCardData = {
 		<h1 class="sr-only">NFT Preview Card</h1>
 	</header>
 	<main class="flex h-full items-center justify-center">
-		<NftPreviewCard :nftCardData="nftCardData"></NftPreviewCard>
+		<NftPreviewCard class="mb-10" :nftCardData="nftCardData"></NftPreviewCard>
 	</main>
 	<footer class="absolute bottom-0 w-full p-4 text-white">
 		<AttributionComp
